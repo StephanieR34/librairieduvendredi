@@ -1,5 +1,7 @@
 # cloud_natif_bibliotheque_virtuelle
 
+pour voir le resultat
+https://librarysteph.azurewebsites.net/api/books?
 
 **Main.py (Script upload) :**
 
