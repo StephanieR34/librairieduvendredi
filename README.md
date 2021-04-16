@@ -48,19 +48,36 @@ Pour l'activer : F5 en local ou la flèche dans Azure pour deploy.
 **Variables d'environnement :**
 
 Servent à cacher des informations sensibles, elles sont à rentrer dans votre pc et sur Azure (fonction> Paramètres> Configuration> Nouveaux paramètres d'APP).
+
+
 configuration = {
+
   'host': correspond à l'url de la base de donnée,
+  
   'user': correspond à l'identifiant de connection à la bd ,
+  
   'password': ici le mots de passe de connection a la bd,
+  
   'database':le nom de votre base de donné,
+  
   'client_flags': [mysql.connector.ClientFlag.SSL],
+  
   'ssl_ca': le chemin d'accés/lien du certificat nécessaire pour communiquer via le protocole SSL
+  
 }
+
+
 storage = {
+
     'account': le nom de vore blob de stockage,
+    
     'key' : la clé d'acces a celui ci ,
+    
     'container': le nom du conteneur.
+    
 }
+
+
 
 **MYSQL :**
 
